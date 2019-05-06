@@ -1,0 +1,54 @@
+.clear {
+	margin: 0;
+	padding: 0;
+	height: 0;
+	clear: both;
+}
+.liste {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.liste ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.liste ul li {
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: transparent url(images/bg-liste-button.gif) top left no-repeat;
+}
+
+.liste ul li a {
+	display: block;
+	margin: 0;
+	width: 100%;
+	padding:0 0 0 35px;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue";
+	font-size: 70%;
+	color: #FFF;
+	text-decoration: none;
+	background: transparent url(images/bg-liste-button.gif) top left no-repeat;
+}
+.liste ul li a span.menu_ar {
+	display: block;
+	margin: 0;
+	width: 100%;
+	height: 22px;
+	padding: 5px 35px 0 0;
+	background: transparent url(images/bg-liste-button.gif) top right no-repeat;
+	cursor: pointer;
+}
+.liste ul li a:hover, .liste ul li.oncelikli a {
+	background: transparent url(images/bg-liste-h-aqua.gif) top left no-repeat;
+}
+.liste ul li a:hover span.menu_ar, .liste ul li.oncelikli a span.menu_ar {
+	background: transparent url(images/bg-liste-h-aqua.gif) top right no-repeat;
+}
